@@ -44,20 +44,19 @@ footer {
 }
 
 #boton {
-    display: none; /* Oculta el botón por defecto */
+    display: none;
 }
 
 #codigoQr {
-    display: inline-block; /* Muestra el código QR por defecto */
+    display: inline-block;
 }
 
-/* Muestra el botón solo en pantallas más pequeñas, como dispositivos móviles */
 @media screen and (max-width: 767px) {
     #boton {
-        display: inline-block; /* Muestra el botón en dispositivos móviles */
+        display: inline-block;
     }
 
     #codigoQr {
-        display: none; /* Oculta el código QR en dispositivos móviles */
+        display: none;
     }
 }
